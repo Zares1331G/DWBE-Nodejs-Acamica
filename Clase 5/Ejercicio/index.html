@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Array</title>
+</head>
+<body>
+    <form action="">
+        <label for="auto">Agregar el vehiculo</label>
+        <input name="auto" id="cars" type="text">
+        <input id="envio" type="button" value="Agregar">
+    </form>
+
+    
+    <p id="result"></p>
+
+    <script>
+    document.getElementById('envio').addEventListener('click', function(){
+        let cars = document.getElementById('cars').value;
+        let carCollection = []
+
+        carCollection.push(cars)
+
+        if(cars){
+            console.log(carCollection);
+        }
+    })
+        
+
+
+    </script>
+</body>
+</html>

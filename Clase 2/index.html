@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite artist</title>
+</head>
+<body>
+    <header>
+        <img src="https://i1.wp.com/www.vinilonegro.com/wp-content/uploads/2018/03/James-Blunt-3-e1520802321646.jpg?fit=600%2C400&ssl=1" alt="">
+        <h1 id="name"></h1>
+    </header>
+    <main>
+        <h2 id="reseña"></h2>
+        <p>Nació un 22 de Febrero de 1974 en Inglaterra. Aunque por su estilo de música resulta difícil de creer, James era un auténtico estratega militar debido a su temprano ingreso en el ejército británico, como mandaba su tradición familiar.</p>
+        <h2>Discografia</h2>
+        <div  id="discografia"></div>
+        <a href="https://www.jamesblunt.com/splash?ref=https://www.google.com/">Ingresa en su pagina aqui!</a>
+    </main>
+    <script>
+        document.getElementById("name").innerHTML="James Blunt"
+        document.getElementById("reseña").innerHTML="Reseña de su historia"
+        document.getElementById("discografia").innerHTML=
+        `
+            <ul>
+                <li>Back to Bedlam</li>
+                <li>All the Lost Souls</li>
+                <li>Some Kind of Trouble</li>
+                <li>Moon Landing</li>    
+            </ul>
+        `
+    </script>
+</body>
+</html>
