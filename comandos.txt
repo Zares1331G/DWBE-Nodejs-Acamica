@@ -1,0 +1,3 @@
+*npm init = Para inicializar el pakage.json de todo proyectto (Tambien se puede dar npm init -y para darle que si a todo)
+
+*nodemon {ruta} = Este comando es para que siempre este escuchando los cambios, la ruta debe ser desde el punto en el que se encuentre la consola
